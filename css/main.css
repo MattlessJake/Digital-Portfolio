@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans|Roboto');
+
+:root {
+    --colorA: #FFFBFB;
+    --fontA: 'PT Sans', sans-serif;
+    --fontB: 'Roboto', sans-serif;
+    --fontC: 'Oswald', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddddd;
+    overflow-x: hidden;
+}
+
+#nav-list {
+    font-size: 1.2em;
+    font-family: var(--fontA);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--colorA);
+    align-items: center;
+    z-index: 2;
+    height: 64px;
+}
+
+.stay {
+    margin: auto 15%;
+    position: absolute;
+    top: 636px;
+    width: 70%;
+    border-radius: 25px 25px 0 0;
+}
+
+.list-item {
+    margin: 1em 0;
+    word-wrap: normal;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+    padding: 1em 2.07em;
+    transition-duration: 0.3s;
+    z-index: 3;
+}
+
+.padd {
+    padding: 1em 3.93em;
+}
+
+a:hover {
+    background-color: #e6e4e3;
+}
+
+.spacer {
+    width: 1px;
+    background-color: #333;
+    height: 45px;
+}
+
+#head {
+    background-image: url('../img/Title-background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    z-index: -1;
+    opacity: 1;
+}
+
+.name {
+    font-family: var(--fontC);
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 0.4em;
+    opacity: 1;
+    top: 0;
+    margin: auto;
+    z-index: 2;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    background-color: #000;
+    opacity: 0.5;
+    height: 700px;
+    width: 100%;
+    z-index: 1;
+}
+
+#header {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    top: 100px;
+    margin: 3em 0;
+    z-index: 2;
+}
+
+div.quote {
+    font-family: var(--fontB);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    margin: 3em auto;
+    width: 700px;
+}
+
+.block {
+    height: 500px;
+    font-family: var(--fontA);
+}
+
+.background {
+    background-image: url('https://wallpapercave.com/wp/IXHSKnv.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.background .overlay {
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    height: 400px;
+    width: 100%;
+    z-index: 1;
+}
+
+h1, h2 {
+    font-family: var(--fontB);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0.4em;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 1.5em;
+}
+
+.nav-start {
+    border-radius: 25px 0 0 0;
+}
+
+.nav-end {
+    border-radius: 0 25px 0 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    margin: 0;
+    border-radius: 0 0 0 0;
+}
+
+.mos {
+    width: 200px;
+    margin: 200px 4em;
+}
+
+.mos-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.active {
+    background-color: #e6e4e3;
+}
+
+h3 {
+    font-family: var(--fontC);
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 0.4em;
+    opacity: 1;
+    top: 0;
+    margin: auto;
+    z-index: 2;
+    display: block;
+}
+
+.title {
+    margin: auto 15%;
+    position: initial;
+    top: 636px;
+    width: 70%;
+    border-radius: 0 0 25px 25px;
+}
+
+.nav-start-title {
+    border-radius: 0 0 0 25px;
+}
+
+.nav-end-title {
+    border-radius: 0 0 25px 0;
+}
+
+.line {
+    background-color: var(--colorA);
+    width: 100%;
+    height: 2px;
+    margin: 6em 0;
+}
